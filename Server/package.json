@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build && node index.js --production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Build script executed'"
   },
   "keywords": [],
   "author": "",
