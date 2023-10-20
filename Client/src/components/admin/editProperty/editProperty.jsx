@@ -9,8 +9,8 @@ import { editProperty } from "../../../redux/actions";
 import Dropzone from "react-dropzone";
 import Switch from "react-switch";
 import Success from "./modals/success.jsx"
-import ModalError from './modals/modalError.jsx';
-import Loading from './modals/loading.jsx';
+import ModalError from './modals/ModalError.jsx';
+import Loading from './modals/Loading.jsx';
 
 export function EditPropertyFromAdmin() {
   const dispatch = useDispatch();
