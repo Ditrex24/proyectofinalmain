@@ -3,7 +3,7 @@ import { createStore, applyMiddleware, compose, combineReducers } from "redux";
 import thunkMiddleware from "redux-thunk";
 import storage from "redux-persist/lib/storage"
 import { persistStore, persistReducer } from "redux-persist"
-import rootReducer from "./reducer";
+import rootReducer from "../redux/reducer";
 
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
