@@ -19,8 +19,8 @@ import EditAccount from './components/propertiesAdmin/personalEdit';
 import EditPaymentInfo from './components/propertiesAdmin/paymentEdit';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:3001';
-// axios.defaults.baseURL = "https://inmobiliaria360.up.railway.app";
+// axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL = "https://inmobiliaria360.up.railway.app";
 
 function App() {
 	const location = useLocation();
