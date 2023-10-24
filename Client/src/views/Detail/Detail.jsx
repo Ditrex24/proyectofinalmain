@@ -112,7 +112,7 @@ const Detail = () => {
 								</div>
 								<div className="w-full flex flex-row flex-wrap justify-start overflow-x-hidden overflow-y-scroll">
 									<p className="ml-5 text-blue font-onest font-bold underline pb-3">
-										♥︎SAVE PROPERTY
+										♥︎ SAVE PROPERTY
 									</p>
 									<div className="flex flex-row flex-wrap">
 										{property.images.map((image, index) => (
@@ -137,19 +137,19 @@ const Detail = () => {
 							</p>
 							<div className="w-1/2 h-10 grid grid-cols-3 gap-3 place-items-stretch">
 								<div className="flex justify-center items-center rounded-md bg-cyan uppercase">
-									<p className="text-sm text-blue text-center font-bold">
+									<p className="text-sm text-blue text-center font-bold font-onest">
 										<FontAwesomeIcon icon={faBed} className="mr-2" />{" "}
 										{property.bedrooms} Bedroom/s
 									</p>
 								</div>
 								<div className="flex justify-center items-center rounded-md bg-cyan uppercase">
-									<p className="text-sm font-bold text-blue text-center">
+									<p className="text-sm font-bold text-blue text-center font-onest">
 										<FontAwesomeIcon icon={faBath} className="mr-2" />
 										{property.bathrooms} Bathroom/s
 									</p>
 								</div>
 								<div className="flex justify-center items-center rounded-md bg-cyan">
-									<p className="text-sm font-bold text-blue text-center">
+									<p className="text-sm font-bold text-blue text-center font-onest">
 										<FontAwesomeIcon icon={faRulerCombined} />{" "}
 										{property.amenities.covered_area} m²
 									</p>
